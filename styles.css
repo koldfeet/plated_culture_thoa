@@ -42,3 +42,44 @@
     font-style: italic;
     font-size: 30px;
 }
+
+/* ============Intro Section Start============ */
+.intro_section {
+    margin-top: 45px;
+}
+
+.intro_section_col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(83, 83, 83);
+}
+
+.intro_section_wrapper {
+    max-width: 528px;
+}
+
+.intro_section_p {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.btn_wrapper {
+    margin-top: 45px;
+}
+
+.intro_section_btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(85, 85, 85);
+}
+
+.intro_section_btn:hover {
+    background-color: rgb(187, 187, 187);
+    color: rgb(49, 49, 49);
+}
+/* ============Intro Section End============ */
