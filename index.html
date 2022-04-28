@@ -67,21 +67,68 @@
             <div class="container">
                 <div class="row">
                     <div class="col banner_col">
-                        <img src="images/intro_bg.jpg">
+                        <img class="banner_img_intro" src="images/intro_bg.jpg">
                     </div>
                 </div>
             </div>
         </section>
         <!-- ==================Banner image section End================= -->
 
+        <!-- ===================About Us Section Start===================== -->
         <section class="about_us">
             <div class="container">
-                <div class="row">
+                <div class="row about_row">
+                    <div class="about_h2_wrapper">
+                        <h1>About Us</h1>
+                    </div>
                     <div class="col about_us_left_col">
-                        hello world
+                        <img class="about_img" src="images/profile_img.jpg" alt="profile image">
                     </div>
                     <div class="col about_us_right_col">
-                        Testing
+                        <h2 class="about_h2">
+                            Hi, I'm Thoa!
+                        </h2>
+                        <div class="about_p_wrapper">
+                            <p class="about_p">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto ab praesentium
+                                adipisci, ducimus incidunt modi temporibus magni, delectus, ex tempore sint tempora?
+                                Error
+                                temporibus nesciunt voluptates unde expedita, qui repellat vel iste reprehenderit alias,
+                                incidunt tempora dicta exercitationem eum amet sunt provident. Error blanditiis ea saepe
+                                earum harum quam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===================About Us Section End===================== -->
+
+        <section class="gallery">
+            <div class="container gallery_container">
+                <div class="row">
+                    <div class="gallery_h1_wrapper">
+                        <h1 class="gallery_h1">Gallery</h1>
+                    </div>
+                    <div class="col">
+
+                        <div class="full-img" id="fullImgBox">
+                            <img src="images/placement.jpg" id="fullImg">
+                            <span onclick="closeFullImg()">X</span>
+                        </div>
+                        <div class="img-gallery">
+                            <img class="gallery_img" src="images/gallery_img3.jpg" onclick="openFullImg(this.src)"
+                                alt="">
+                            <img class="gallery_img" src="images/gallery_img1.jpg" onclick="openFullImg(this.src)"
+                                alt="">
+                            <img class="gallery_img" src="images/gallery_img2.jpg" onclick="openFullImg(this.src)"
+                                alt="">
+                            <img class="gallery_img" src="images/gallery_img4.jpg" onclick="openFullImg(this.src)"
+                                alt="">
+                            <img class="gallery_img" src="images/food_1.jpg" onclick="openFullImg(this.src)" alt="">
+                            <img class="gallery_img" src="images/food_2.jpg" onclick="openFullImg(this.src)" alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>
