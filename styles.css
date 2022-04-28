@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: rgb(83, 83, 83);
+    letter-spacing: 1px;
 }
 
 .header-row {
@@ -212,10 +213,90 @@
 }
 /* =================Gallery section end================ */
 
+/* =================Contact section Start================ */
+.contact {
+    margin-bottom: 45px;
+}
+
+.contact_left_col,
+.contact_mid_col,
+.contact_right_col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid rgb(231, 231, 231);
+}
 
 
+.contact_left_col {
+    /* background-color: lightblue; */
+    min-width: 300px;
+    flex-direction: column;
+}
 
+.contact_mid_col {
+    /* background-color: lightgreen; */
+    min-width: 300px;
+    flex-direction: column;
+}
 
+.contact_right_col {
+    /* background-color: lightslategray; */
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.contact_h2 {
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    box-shadow: 5px 5px 10px rgb(133, 133, 133);
+}
+
+.contact_phone {
+    font-size: 20px;
+}
+
+.contact_email {
+    font-size: 20px;
+}
+
+.contact_email_anchor {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-twitter {
+    font-size: 50px;
+}
+
+.contact_ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.contact_mid_col {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact_h1_wrapper {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.contact_h2_direction {
+    margin-bottom: 20px;
+}
+/* =================Contact section end================ */
 
 
 
