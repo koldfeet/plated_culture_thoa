@@ -213,6 +213,69 @@
 }
 /* =================Gallery section end================ */
 
+/* =================Menu Section Start================ */
+.menu_left_col {
+    /* background-color: lightblue; */
+    height: 950px;
+}
+
+.menu_right_col {
+    /* background-color: lightgoldenrodyellow; */
+    height: 950px;
+}
+
+.menu_container {
+    background-color: rgba(163, 135, 97, 0.137)
+}
+
+.wrapper{
+    margin:50px;
+    padding-left:40px;
+    padding-right:40px;
+  }
+  .dividing-canopy{
+    height: 870px;
+    border-top:6px solid rgb(241, 201, 8);
+    border-left:6px solid rgb(241, 201, 8);
+    border-right:6px solid rgb(241, 201, 8); 
+    border-bottom: 6px solid rgb(241, 201, 8);
+    max-height: 950px;
+    position: relative;
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+  .context-title{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    position: relative;
+    top: -830px;
+  }
+  
+  .context-title-text{
+    display: inline-block;
+    /* background-color: rgba(163, 135, 97, 0.137); */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+    text-transform:uppercase;
+  }
+  
+  .interactive-portfolio{
+    position: relative;
+    top: -830px;
+  }
+
+  ul li {
+      list-style: none;
+  }
+
+  li {
+      font-size: 12px;
+  }
+/* =================Menu Section END================ */
+
+
 /* =================Contact section Start================ */
 .contact {
     margin-bottom: 45px;
