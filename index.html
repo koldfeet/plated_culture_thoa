@@ -24,17 +24,35 @@
             <div class="container header-container">
                 <div class="row header-row">
                     <div class="col header-col-left">
-                        <h1 class="logo">Plated Culture</h1>
+                        <h2 id="target_home" class="contact_h2">Plated Culture</h2>
                     </div>
                     <div class="col header-col-right">
-                        <a class="header-nav" href="#">Menu</a>
-                        <a class="header-nav" href="#">Gallery</a>
-                        <a class="header-nav" href="#">About Us</a>
-                        <a class="header-nav" href="#">Contact</a>
+                        <a class="header-nav" href="#target_menu">Menu</a>
+                        <a class="header-nav" href="#target_gallery">Gallery</a>
+                        <a class="header-nav" href="#target_about_us">About Us</a>
+                        <a class="header-nav" href="#target_contact">Contact</a>
                     </div>
-
                 </div>
             </div>
+
+
+            <div id="toggle"></div>
+            <div id="sidebar">
+                <ul>
+                    <li> <a class="sidebar-link" href="#target_menu">Menu</a> </li>
+                    <li> <a class="sidebar-link" href="#target_gallery">Gallery</a> </li>
+                    <li> <a class="sidebar-link" href="#target_about_us">About Us</a> </li>
+                    <li> <a class=" sidebar-link" href="#target_contact">Contact</a> </li>
+                    <div class="sidebar_media_icon">
+                        <a href="https://www.facebook.com/profile.php?id=100076257410952" target="_blank"> <i
+                                class="bi bi-facebook"></i> </a>
+                        <a href=""> <i class="bi bi-instagram"></i> </a>
+                        <a href=""> <i class="bi bi-twitter"></i> </a>
+                    </div>
+                </ul>
+            </div>
+
+
         </header>
 
         <!-- ==================Intro Section Start================= -->
@@ -54,7 +72,7 @@
                             </p>
 
                             <div class="btn_wrapper">
-                                <a class="intro_section_btn" href="#">About Us</a>
+                                <a class="intro_section_btn" href="#target_about_us">About Us</a>
                             </div>
 
                         </div>
@@ -77,7 +95,7 @@
         <!-- ==================Banner image section End================= -->
 
         <!-- ===================About Us Section Start===================== -->
-        <section class="about_us">
+        <section id="target_about_us" class="about_us">
             <div class="container">
                 <div class="row about_row">
                     <div class="about_h2_wrapper">
@@ -103,11 +121,36 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container">
+                <div class="row about_row_bottom">
+                    <div class="col about_us_left_col_bottom">
+                        <h2 class="about_h2_bottom">
+                            Hi, I'm Jenn!
+                        </h2>
+                        <div class="about_p_wrapper_bottom">
+                            <p class="about_p">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto ab praesentium
+                                adipisci, ducimus incidunt modi temporibus magni, delectus, ex tempore sint tempora?
+                                Error
+                                temporibus nesciunt voluptates unde expedita, qui repellat vel iste reprehenderit alias,
+                                incidunt tempora dicta exercitationem eum amet sunt provident. Error blanditiis ea saepe
+                                earum harum quam!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col about_us_right_col_bottom">
+                        <img class="about_img" src="https://source.unsplash.com/300x300?lady" alt="profile image">
+                    </div>
+                </div>
+            </div>
+
+
         </section>
         <!-- ===================About Us Section End===================== -->
 
         <!-- =================Gallery section Start================== -->
-        <section class="gallery">
+        <section id="target_gallery" class="gallery">
             <div class="container gallery_container">
                 <div class="row">
                     <div class="gallery_h1_wrapper">
@@ -141,7 +184,7 @@
         </section>
         <!-- =================Gallery section End================== -->
 
-        <section class="menu">
+        <section id="target_menu" class="menu">
             <div class="container menu_container">
                 <div class="row">
                     <div class="col menu_left_col">
@@ -356,34 +399,36 @@
 
 
         <!-- ===================Contact section Start=================== -->
-        <section class="contact">
+        <section id="target_contact" class="contact">
             <div class="container">
                 <div class="row">
                     <div class="contact_h1_wrapper">
                         <h1>Contact</h1>
                     </div>
                     <div class="col contact_left_col">
-                        <h2 class="contact_h2">Plated Culture</h2>
-                        <h3 class="contact_phone">Phone : 303-000-9999</h3>
-                        <h3 class="contact_email"><a class="contact_email_anchor"
-                                href="mailto:webmaster@example.com">Email</a></h3>
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-twitter"></i>
+                        <h2 class="contact_h2">
+                            <a class="footer_logo_achor" href="#target_home">Plated Culture</a>
+                        </h2>
+                        <a href=""> <i class="bi bi-facebook"></i> </a>
+                        <a href=""> <i class="bi bi-instagram"></i> </a>
+                        <a href=""> <i class="bi bi-twitter"></i> </a>
                     </div>
                     <div class="col contact_mid_col">
                         <div class="contact_h2_wrapper">
                             <h2 class="contact_h2_hour">Hours</h2>
                         </div>
                         <ul class="contact_ul">
-                            <li>Monday : 6:30AM - 6:30PM</li>
-                            <li>Tuesday : 6:30AM - 6:30PM</li>
-                            <li>Wednesday : 6:30AM - 6:30PM</li>
-                            <li>Thursday : 6:30AM - 6:30PM</li>
-                            <li>Friday : 6:30AM - 6:30PM</li>
-                            <li>Saturday : 6:30AM - 6:30PM</li>
-                            <li>Sunday : 6:30AM - 6:30PM</li>
+                            <li class="footer_hour">Monday : 6:30AM - 6:30PM</li>
+                            <li class="footer_hour">Tuesday : 6:30AM - 6:30PM</li>
+                            <li class="footer_hour">Wednesday : 6:30AM - 6:30PM</li>
+                            <li class="footer_hour">Thursday : 6:30AM - 6:30PM</li>
+                            <li class="footer_hour">Friday : 6:30AM - 6:30PM</li>
+                            <li class="footer_hour">Saturday : 6:30AM - 6:30PM</li>
+                            <li class="footer_hour">Sunday : 6:30AM - 6:30PM</li>
                         </ul>
+                        <h3 class="contact_phone">Phone : 303-000-9999</h3>
+                        <h3 class="contact_email"><a class="contact_email_anchor"
+                                href="mailto:webmaster@example.com">Email</a></h3>
                     </div>
                     <div class="col contact_right_col">
                         <div class="contact_h2_direction">
