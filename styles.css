@@ -251,69 +251,74 @@
 /* =================Gallery section end================ */
 
 /* =================Menu Section Start================ */
-.table {
-    font-size: 10px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
 }
 
-.menu_left_col {
-    /* background-color: lightblue; */
-    height: 1100px;
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
-.menu_right_col {
-    /* background-color: lightgoldenrodyellow; */
-    height: 1100px;
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
 }
 
-.menu_container {
-    background-color: rgba(163, 135, 97, 0.137)
+.menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
 }
 
-.wrapper{
-    margin:20px;
-    padding-left:40px;
-    padding-right:40px;
-  }
-  .dividing-canopy{
-    height: 950px;
-    border-top:6px solid rgb(241, 201, 8);
-    border-left:6px solid rgb(241, 201, 8);
-    border-right:6px solid rgb(241, 201, 8); 
-    border-bottom: 6px solid rgb(241, 201, 8);
-    max-height: 950px;
-    position: relative;
-    margin-left: -50px;
-    margin-right: -50px;
-  }
-  .context-title{
-    text-align: center;
-    font-size: 30px;
-    text-transform: capitalize;
-    position: relative;
-    top: -930px;
-  }
-  
-  .context-title-text{
-    display: inline-block;
-    /* background-color: rgba(163, 135, 97, 0.137); */
-    padding-left: 10px;
-    padding-right: 10px;
-    font-style: italic;
-    text-transform:uppercase;
-  }
-  
-  .interactive-portfolio{
-    position: relative;
-    top: -910px;
-  }
+.menu-item {
+    display: flex;
+}
 
-  ul li {
-      list-style: none;
-  }
+.menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
 
-  li {
-      font-size: 10px;
-  }
+.menu-item-text {
+    flex-grow: 1;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu-item-name {
+    margin-right: 1.5em;
+}
+
+.menu-item-description {
+    line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+    .menu {
+        font-size: 16px;
+    }
+
+    .menu-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-item-image {
+        width: 125px;
+        height: 125px;
+    }
+}
 /* =================Menu Section END================ */
 
 
